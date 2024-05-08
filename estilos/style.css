@@ -31,8 +31,8 @@ main{
 
 section#login{
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 260px;
+    height: 510px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
@@ -68,6 +68,29 @@ div#formulario > p{
     font-size: 0.8em;
 }
 
+form > div.campo{
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+form > div.senha{
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+div > label {
+    display: none;
+}
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
@@ -78,6 +101,7 @@ form > input[type=submit]{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 form > input[type=submit]:hover{
@@ -100,6 +124,7 @@ form > a.botao{
     cursor: pointer;
     text-decoration: none;
     color: white;
+    padding-top: 5px;
 }
 
 form > a.botao:hover{
